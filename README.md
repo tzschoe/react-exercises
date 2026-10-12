@@ -2,4 +2,4 @@
 
 Übungen und Transferaufgaben zum React-Kurs.
 
-Die übungen werden nach kurstagen organisieren.
+Die übungen werden nach kurstagen organisiert.
