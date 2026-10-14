@@ -1,11 +1,11 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ProductList from "./components/ProductList";
-import "./style.css"; 
+import Schedule from "./day03/components/Schedule";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ProductList />
+    <Schedule />
   </React.StrictMode>
 );

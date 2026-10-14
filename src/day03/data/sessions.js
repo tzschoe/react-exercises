@@ -1,0 +1,107 @@
+
+export const sessions = [
+  {
+    id: 1,
+    title: "Moderne Frontends mit React",
+    speaker: "Anna Müller",
+    room: "Raum A",
+    time: "09:00",
+    track: "Frontend",
+    level: "Einsteiger",
+    online: false,
+    seats: 12,
+    highlight: true,
+    duration: 60
+  },
+  {
+    id: 2,
+    title: "State Management Deep Dive",
+    speaker: "Ben Schmidt",
+    room: "Raum B",
+    time: "10:15",
+    track: "Frontend",
+    level: "Fortgeschritten",
+    online: false,
+    seats: 2,
+    highlight: false,
+    duration: 90
+  },
+  {
+    id: 3,
+    title: "Einführung in Node.js APIs",
+    speaker: "Clara Neumann",
+    room: "Online",
+    time: "11:30",
+    track: "Backend",
+    level: "Einsteiger",
+    online: true,
+    seats: 0,
+    highlight: false,
+    duration: 45
+  },
+  {
+    id: 4,
+    title: "DevOps für Webentwickler",
+    speaker: "David Fischer",
+    room: "Raum C",
+    time: "13:00",
+    track: "DevOps",
+    level: "Fortgeschritten",
+    online: false,
+    seats: 25,
+    highlight: false,
+    duration: 60
+  },
+  {
+    id: 5,
+    title: "UI/UX Design Essentials",
+    speaker: "Elena Wagner",
+    room: "Raum A",
+    time: "14:15",
+    track: "Design",
+    level: "Einsteiger",
+    online: false,
+    seats: 1,
+    highlight: true,
+    duration: 60
+  },
+  {
+    id: 6,
+    title: "GraphQL vs. REST",
+    speaker: "Felix Weber",
+    room: "Online",
+    time: "15:30",
+    track: "Backend",
+    level: "Experte",
+    online: true,
+    seats: 50,
+    highlight: false,
+    duration: 75
+  },
+  {
+    id: 7,
+    title: "Cyber Security im Browser",
+    speaker: "Gina Becker",
+    room: "Raum B",
+    time: "16:45",
+    track: "Security",
+    level: "Experte",
+    online: false,
+    seats: 0,
+    highlight: true,
+    duration: 90
+  },
+  {
+    id: 8,
+    title: "Testing mit Jest und Cypress",
+    speaker: "Hannes Schulz",
+    room: "Raum C",
+    time: "18:00",
+    track: "QA",
+    level: "Fortgeschritten",
+    online: false,
+    seats: 15,
+    highlight: false,
+    duration: 60
+  }
+];

@@ -1,0 +1,126 @@
+
+
+:root {
+  --border-color: #e5e7eb;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --bg-light: #f9fafb;
+}
+
+.schedule-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+}
+
+.schedule-header {
+  margin-bottom: 2.5rem;
+}
+
+.schedule-header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.schedule-header p {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+
+.info-box {
+  border-left: 2px solid var(--text-main);
+  padding-left: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.info-box-title {
+  font-size: 1rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.info-box-content p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+
+.session-card {
+  border: 1px solid var(--border-color);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.session-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.session-speaker {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.session-details {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.session-meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+
+.session-badges {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  margin-right: 0.5rem;
+}
+
+.session-booking {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+
+.session-card.highlight {
+  border-color: var(--text-main); 
+}
+
+.session-card.online {
+  background-color: var(--bg-light); 
+}
+
+.session-card.few-seats .session-booking {
+  color: #b45309; 
+}
+
+.session-card.sold-out {
+  opacity: 0.4; 
+}
